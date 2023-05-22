@@ -1,7 +1,7 @@
 {
   "name": "Quickpay",
   "short_name": "Quickpay",
-  "start_url": "/",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#8fe3cf",
