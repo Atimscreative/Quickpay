@@ -1,4 +1,4 @@
-const staticCacheName = "site-static-v1";
+const staticCacheName = "site-static-v1.1";
 // const dynamicCacheName = "site-dynamic-v1";
 const assests = [
   "/",
@@ -19,6 +19,8 @@ const assests = [
   "https://unpkg.com/boxicons@2.1.4/fonts/boxicons.woff2 ",
   " https://fonts.cdnfonts.com/s/85514/CabinetGrotesk-Medium.woff",
   "https://fonts.cdnfonts.com/s/85514/CabinetGrotesk-Extrabold.woff",
+  "https://unpkg.com/aos@2.3.1/dist/aos.css",
+  "https://unpkg.com/aos@2.3.1/dist/aos.js",
 ];
 
 // Install Service Worker

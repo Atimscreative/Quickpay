@@ -6,7 +6,7 @@ window.addEventListener("load", function () {
   // Remove message after 5 seconds
   setTimeout(() => {
     loader.classList.add("hidden");
-  }, 2000);
+  }, 500);
 });
 
 // Navigation
@@ -44,6 +44,11 @@ navLinks.forEach((link) => {
 
 // LOGIN AND DOWNLOAD BTN
 const loginBtn = document.querySelector(".login-btn");
+const downloadBtn = document.querySelector(".download-btn");
+
+downloadBtn.addEventListener("click", function () {
+  navMenu.classList.remove("display-mobile-nav");
+});
 
 // CHANGE HEADER BG AND ADD SHADOW ON SCROLL
 window.addEventListener("scroll", () => {

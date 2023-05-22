@@ -59,6 +59,8 @@
     <link rel="apple-touch-icon" href="images/icons/icon-96x96.png" />
     <meta name="apple-mobile-web-app-status-bar" content="#8fe3cf" />
     <meta name="theme-color" content="#8fe3cf" />
+    <!-- AOS STYLESHEET -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- STYLESHEET -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -79,9 +81,9 @@
         <div class="spinner"></div>
       </div>
       <!-- Header -->
-      <header id="header">
+      <header id="header" data-aos="fade" data-aos-duration="1000">
         <nav class="navbar container">
-          <a href="/" class="logo">
+          <a href="index.html" class="logo">
             <img
               src="images/Logo.png"
               width="100"
@@ -97,8 +99,8 @@
                 <a href="#about" class="nav-link">About Us</a>
                 <a href="#contact" class="nav-link">Contact Us</a>
               </div>
-              <a href="/" class="login-btn">Login</a>
-              <a href="/" class="download-btn">Download App</a>
+              <a href="index.html" class="login-btn">Login</a>
+              <a href="#" class="download-btn">Download App</a>
             </div>
             <i class="bx bx-x close-menu"></i>
           </div>
@@ -109,7 +111,7 @@
       <section id="hero">
         <div class="container">
           <div class="hero">
-            <div class="hero-content">
+            <div class="hero-content" data-aos="fade-right">
               <h1>Save money with Friends & Family</h1>
               <p>
                 Send money to your family, friends or businesses. We pay
@@ -117,14 +119,14 @@
               </p>
               <a href="#" class="hero-btn">Get Started</a>
             </div>
-            <div class="hero-img">
+            <div class="hero-img" data-aos="fade-left">
               <img src="images/phone.webp" alt="Phone" />
               <div class="hero-shape1"></div>
               <div class="hero-shape2"></div>
               <div class="hero-shape3"></div>
             </div>
           </div>
-          <div class="stats">
+          <div class="stats" data-aos="fade-up">
             <div class="stat">
               <h3>10,000+</h3>
               <p>Users</p>
@@ -146,9 +148,9 @@
       <!-- Why Choose Quickpay -->
       <section id="whyus">
         <div class="container">
-          <h2 class="heading">Why choose Quickpay</h2>
+          <h2 class="heading" data-aos="fade">Why choose Quickpay</h2>
           <div class="whyus">
-            <div class="benefit">
+            <div class="benefit" data-aos="fade-right">
               <div class="why-icon">
                 <svg
                   width="64"
@@ -171,7 +173,7 @@
                 >Learn more <i class="bx bx-chevron-right"></i
               ></a>
             </div>
-            <div class="benefit">
+            <div class="benefit" data-aos="fade-right">
               <div class="why-icon">
                 <svg
                   width="57"
@@ -196,7 +198,7 @@
                 >Learn more <i class="bx bx-chevron-right"></i
               ></a>
             </div>
-            <div class="benefit">
+            <div class="benefit" data-aos="fade-right">
               <div class="why-icon">
                 <svg
                   width="64"
@@ -224,7 +226,7 @@
       <section id="about">
         <div class="container">
           <div class="about">
-            <div class="about-content">
+            <div class="about-content" data-aos="fade-down">
               <h2>About Quickpay</h2>
               <p>
                 Quickpay is a platform that allows you save money with friends
@@ -232,7 +234,7 @@
                 family, friends or business easily, fast and efficiently.
               </p>
             </div>
-            <div class="about-img">
+            <div class="about-img" data-aos="fade-in">
               <img src="images/phone.webp" alt="Phone" />
               <div class="shape1"></div>
               <div class="shape2"></div>
@@ -244,7 +246,7 @@
       <!-- Contact/CTA -->
       <section id="contact">
         <div class="container">
-          <div class="contact">
+          <div class="contact" data-aos="fade-up">
             <h2>To get our Update, Subscribe to our Newsletter</h2>
             <form action="">
               <div class="field">
@@ -264,7 +266,7 @@
       </section>
     </main>
     <!-- Footer -->
-    <section id="footer">
+    <section id="footer" data-aos="fade-up">
       <div class="container">
         <div class="footer">
           <div class="footer-info">
@@ -319,6 +321,15 @@
     >
       <i class="bx bx-up-arrow-alt"></i>
     </a>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 2000,
+        once: true,
+        mirror: false,
+      });
+    </script>
     <!-- JAVASCRIPT -->
     <script src="js/app.js"></script>
     <script src="js/script.js"></script>
