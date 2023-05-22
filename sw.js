@@ -2,12 +2,12 @@ const staticCacheName = "site-static-v1.0";
 // const dynamicCacheName = "site-dynamic-v1";
 const assests = [
   "/",
-  "/index.html",
-  "/js/script.js",
-  "/js/app.js",
-  "/css/style.css",
-  "/images/cbe018152347725.63362f541803f.png",
-  "/images/Logo.png",
+  "index.html",
+  "js/script.js",
+  "js/app.js",
+  "css/style.css",
+  "images/cbe018152347725.63362f541803f.png",
+  "images/Logo.png",
   "images/loader-img.png",
   "images/phone.webp",
   "images/left.png",
